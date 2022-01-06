@@ -1,34 +1,70 @@
 .title {
     font-size: 100px;
     text-align: center;
+    border: darkblue;
+    
+}
+.float-container {
+    display: flex;
+    padding: auto;
+}
+body {
+    max-width: 95%;
 }
 
-.subtitles {
-    font-size: 60px;
+.float-child {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    min-width: fit-content;
-   /* margin-left: 7px;
-    margin-right: 7px; */
-}
+    justify-content: space-evenly;
+    max-height: auto;
+    float: left;
+    flex-direction: column;  
+    max-width: 32%;
+    padding: auto;
   
+}
+
  .card {
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
      transition: 0.3s;
-     border-radius: 5px; /* 5px rounded corners */
-      }
-      
-      /* Add rounded corners to the top left and the top right corner of the image */
- img {
-     border-radius: 5px 5px 0 0;
+     border-radius: 5px;
+     padding-bottom: 20px;
+     align-items: center;
+     padding: 10px;
+}
+
+.boxtitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+.description {
+    font-size:large;
+    border: darkblue;
+    border-width: 10px;
+}
+
+.fishimg {
+     border-radius: 5px;
+     padding: top 5%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+ }
+ 
+ .description {
+     flex-wrap: wrap;
+     text-align: left;
+     font-size: 28px;
  }
 
  ul {
      list-style-type: none;
+     padding-left:0px;
  }   
 
- .fishtype {
+/* .fishtype {
     max-width: 40%;
  }
 
@@ -46,3 +82,5 @@
 .fish_name {
 
 }
+
+*/
