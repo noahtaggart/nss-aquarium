@@ -2,7 +2,7 @@ body {
     background-image: url(/images/underwaterbackground2.jpg);
     background-repeat: no-repeat;
     font-family: sans-serif;
-    background-size:stretch;
+    background-size:200%;
     padding-left: 0px;
     padding-right: 0px;
 }
