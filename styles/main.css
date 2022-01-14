@@ -46,10 +46,15 @@ body {
      padding: 1vw;
 }
 
-.fishcard {
+.fishlist {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 2vw;
+    flex-wrap: wrap;
+    color: orange;
+    -webkit-text-stroke: 1px orangered;
+    text-align:left;
 }
 
 

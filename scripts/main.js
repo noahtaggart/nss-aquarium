@@ -1,12 +1,14 @@
-import { getFish } from './database.js'
+/*import { getFish } from './database.js'
 
 const allFish = getFish()
 
 for (const fish of allFish) {
     console.log(fish)
 }
+*/
 
-import {} from ''
+// Import the FishList function from the correct module
+import { FishList } from "./fishlist.js"
 
 /*
     What is the CSS selector for the element where you
@@ -15,7 +17,7 @@ import {} from ''
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector("insert selector here")
+const parentHTMLElement = document.querySelector(".fish-list")
 
 
 parentHTMLElement.innerHTML = FishList()

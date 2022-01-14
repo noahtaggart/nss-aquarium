@@ -4,6 +4,16 @@ const database = {
             name: "Bart",
             food: "crustaceans",
             size: 3
+        },
+        {
+            name: "Magikarp",
+            food: "rice balls",
+            size: 2
+        },
+        {
+            name: "Sharpedo",
+            food: "Magikarp",
+            size: 5
         }
     ]
 }
